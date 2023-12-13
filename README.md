@@ -37,13 +37,14 @@ y = x**3
 
 plt.plot(x,y,label='y=f(x)')
 
-beautifyPlot({
+plotArgs = {
     'title':['test plot'], ## Use list to pass a set of arguments to the function
     'xlim':[0,10],
     'ylim':[0,1000],  
     'legend':{'fontsize':15, 'loc':'best'}, ## Use dictionary to specify arguments
     'tight_layout':[] ## Leave list empty if there is nothing to pass 
-})
+}
 
+beautifyPlot(plotArgs)
 
 ```
