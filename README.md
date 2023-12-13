@@ -30,7 +30,7 @@ plt.tight_layout()
 Using beautifyPlot
 
 ```python
-from beautifyPlot import beautifyPlot
+from beautifyPlot.bplt import beautifyPlot
 import numpy as np
 x = np.arange(0,100,1)
 y = x**3
