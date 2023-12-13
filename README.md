@@ -21,7 +21,7 @@ plt.plot(x,y,label='y=f(x)')
 plt.title("test plot")
 plt.xlim([0,10])
 plt.ylim([0,1000])
-plt.legend(fontsize=15)
+plt.legend(fontsize=15, loc='best')
 plt.tight_layout()
 
 
@@ -41,7 +41,7 @@ beautifyPlot({
     'title':['test plot'], ## Use list to pass a set of arguments to the function
     'xlim':[0,10],
     'ylim':[0,1000],  
-    'legend':{'fontsize':15}, ## Use dictionary to specify arguments
+    'legend':{'fontsize':15, 'loc':'best'}, ## Use dictionary to specify arguments
     'tight_layout':[] ## Leave list empty if there is nothing to pass 
 })
 
