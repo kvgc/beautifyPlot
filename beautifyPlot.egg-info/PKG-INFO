@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: beautifyPlot
-Version: 0.0.1
+Version: 0.1
 Summary: A matplotlib wrapper to make plotting easier.
 Author-email: "Keerthi Vasan G.C." <kvch@ucdavis.edu>
 Project-URL: Homepage, https://github.com/kvgc/beautifyPlot
@@ -44,7 +44,7 @@ plt.tight_layout()
 Using beautifyPlot
 
 ```python
-from beautifyPlot import beautifyPlot
+from beautifyPlot.bplt import beautifyPlot
 import numpy as np
 x = np.arange(0,100,1)
 y = x**3
