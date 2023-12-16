@@ -194,6 +194,20 @@ def beautifyPlot(kwargs):
         "ylim":plt.ylim, 
         "yscale":plt.yscale, 
         "yticks":plt.yticks, 
+
+        ## shorthand 
+        "l":plt.legend,         
+        "t_p":plt.tick_params, 
+        "t_l":plt.tight_layout, 
+        "t":plt.title, 
+        "xlab":plt.xlabel, 
+        "xl":plt.xlim, 
+        "xs":plt.xscale, 
+        "xt":plt.xticks, 
+        "ylab":plt.ylabel, 
+        "yl":plt.ylim, 
+        "ys":plt.yscale, 
+        "yt":plt.yticks,         
     }
 
     for key, arguments in kwargs.items():

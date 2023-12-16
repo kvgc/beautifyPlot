@@ -1,10 +1,10 @@
 [project]
 name = "beautifyPlot"
-version = "0.1"
+version = "0.2"
 authors = [
   { name="Keerthi Vasan G.C.", email="kvch@ucdavis.edu" },
 ]
-description = "A matplotlib wrapper to make plotting easier."
+description = "A simple matplotlib wrapper to avoid writing multiple plt. statements."
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
